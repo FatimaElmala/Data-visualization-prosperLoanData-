@@ -1,0 +1,17 @@
+# Loan data -from prosper- exploration
+## by Fatima Elmalla
+
+
+## Dataset
+
+> This data set contains 113,937 loans with 81 variables on each loan, including loan amount, borrower rate (or interest rate), current loan status, borrower income, and many others. This project is going to focus on the interest rate and its realtion to the following variables: Term, ListingCategory, EmploymentStatus, ProsperRating,StatedMonthlyIncome, LoanOriginalAmount. the data set can be found [here](https://s3.amazonaws.com/udacity-hosted-downloads/ud651/prosperLoanData.csv). and for more information abput the variables check [this](https://docs.google.com/spreadsheets/d/1gDyi_L4UvIrLTEC6Wri5nbaMmkGmLQBk-Yx3z0XDEtI/edit)
+
+
+## Summary of Findings
+
+> Through the exploration, it was found that borrower interest rate and the original amount of the loan have negative corelation thus the interest rate increase with the decrease of the original amount of the loan. similarly, the monthly income of the borrower has negative corelation with the interest rate. thus, interest rate increase with the decrease of the monthly income. the prosper rating directly affects the interest rate. the higher the risk, the lower the interest rate. on the other hand, listing category, term and employment satuts have no significant efffect on the interest rate. after furthur investigation between more variables, It was concluded that part-time and not employed borrowers shows a less negative relationship between interest rate and the original amount of the loan.self-employed borrowers show less negative relationship between interest rate and the monthly income of the borrower. Listing category and term had no significant effect on these relationships. the higher the risk level(Prosper rating), the more positive the relation between the interest rate and the loan original amount. however, it has no significant effect on the relation between the interest rate and the monthly income of the borrower.
+> the investigation between features other than the feature of interest showed that the original amount of the loan is positively correlated to the monthly income of the borrower. the original amount of the loan increase with the increase of the monthly income of the borrower. as expected, the higher the original amount of the loan, the longer the length of the loan. surprisingly, the the higher the level of risk, the higher the original amount of the loan. the original amount and length of the loan increase with the increase of the risk level. in addition, The interest rate of the borrower increase with the increase of the term and prosper rating.
+
+## Key Insights for Presentation
+
+> the presentation is focued on the interest rate of the borrower, the original amount of the loan, the stated monthly income, and the prosper rating. the distribution of the interest rate of the borrower, the original amount of the loan, and the stated monthly income are presented. then, the plots of interest rate versus the original amount of the loan, the Stated Monthly Income, and Prosper Rating are presented. the effect of prosper rating on the relation between in interest rate and original amount of the loan is plotted in the presentation. in addition, the effect of length of the loan on the relation between the interest rate and the prosper rating. finally, the effect of the employment status on the relation between interest rate and monthly income. 
